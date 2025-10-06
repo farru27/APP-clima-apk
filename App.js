@@ -151,5 +151,5 @@ const styles = StyleSheet.create({
   
   footer: { textAlign: 'center', marginTop: 24, color: '#888' }
 });
-const OPENWEATHER_API_KEY = process.env.EXPO_PUBLIC_WEATHER_KEY;
+
 
