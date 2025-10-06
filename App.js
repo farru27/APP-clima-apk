@@ -148,5 +148,8 @@ const styles = StyleSheet.create({
   small: { textAlign: 'center', marginTop: 8, color: '#555' },
   reload: { marginTop: 12, alignSelf: 'center' },
   reloadText: { color: '#1f6feb', fontWeight: '600' },
+  
   footer: { textAlign: 'center', marginTop: 24, color: '#888' }
 });
+const OPENWEATHER_API_KEY = process.env.EXPO_PUBLIC_WEATHER_KEY;
+
